@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Reg. Form</title>
+</head>
+<body>
+    <h1> Registration Form</h1>
+    <form >
+        <fieldset>
+            <legend>Personal Details</legend>
+        <table>
+        <tr>
+            <td><label for="fname">First Name</label></td>
+            <td><input type="text" 
+            name="fname"
+            id="fname"
+            placeholder="EX:Meghana" 
+            required /></td> 
+        </tr>
+        <tr>
+            <td><label for="Sname">SurName</label></td>
+            <td><input type="text" name="Sname" id="Sname"></td> 
+        </tr>
+        <tr>
+            <td><label for="mobnum">Mobile Number</label></td>
+            <td><input type="tel" name="mobnum" id="mobnum"/></td>
+        </tr>
+        <tr>
+            <td><label for="email">Email ID</label></td>
+            <td><input type="email" name="email" id="email"/></td> 
+        </tr>
+        <tr>
+            <td><label for="password">Password</label></td>
+            <td><input type="password" name="password" id="password"></td> 
+        </tr>
+        <tr>
+            <td><label for="cpossword">Conform Password</label></td>
+            <td><input type="password" name="cpossword" id="cpossword"/></td>
+        </tr>
+        <tr>
+            <td><label for="dob">DOB</label></td>
+            <td><input type="date" name="dob" id="dob"/></td>
+        </tr>
+        <tr>
+            <td><label for="age">AGE</label></td>
+            <td><input type="number" min="18" max="65" name="age" id="age" /></td>
+        </tr>
+        <tr>
+            <td><label for="gender">Gender</label></td>
+
+            <td><input type="radio" value="MALE" /><label >MALE</label></td>
+            <td><input type="radio" value="FEMALE" /><label >FEMALE</label></td>
+            <td><input type="radio" value="OTHERS"/><label >OTHERS</label></td>
+        </tr>
+        <tr>
+            <td><label for="selection">SELECT COUNTRY</label></td>
+            <td><select name="" id="">
+                    <option value="INDIA">INDIA</option>
+                    <option value="USA">USA</option>
+                    <option value="GERMANY">GERMANY</option>
+
+                </select></td>
+        </tr>
+        <tr>
+            <td><label for="upload">UPLOAD PIC</label></td>
+            <td><input type="file"></td>
+        </tr>
+        <tr>
+            <td><input type="reset"></td>
+            <td><input type="submit"></td>
+        </tr>
+        </table>
+        </fieldset>
+    </form>
+</body>
+</html>

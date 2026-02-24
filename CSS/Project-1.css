@@ -1,0 +1,52 @@
+body{
+    background-color:black;
+    color:white;
+    font-family: sans-serif;
+}
+h1{
+    background-color: navy;
+    -webkit-text-stroke: 1px rgb(199, 140, 13);
+    text-align: center;
+    border-radius: 10px ;
+}
+h2{
+    background-color: rgba(81, 81, 83, 0.866);
+    border-radius: 10px;
+    border-left: 3px solid rgb(121, 4, 4);
+}
+h3{
+    color: yellow;
+    background-color: rgba(81, 81, 83, 0.866);
+    border-radius: 10px;
+    border-left: 3px solid rgb(121, 4, 4);
+}
+audio{
+    width:100%;
+    box-shadow: 2px 5px 20px aqua;
+    border-radius: 40px;
+}
+del{
+    background-color:red;
+}
+u{
+    background-color: none;
+    color: green;
+}
+mark{
+    background-color: rgb(247, 97, 42);
+}
+iframe{
+    box-shadow: 5px 5px 20px rgb(49, 49, 1);
+    border-radius: 15px;
+    border: 1px solid red;
+}
+img{
+    border-radius: 15px;
+    box-shadow:5px 5px 10px rgb(51, 51, 1);
+    border: 1px solid red;
+}
+p{
+    background-color: rgba(81, 81, 83, 0.866);
+    border-radius: 10px;
+    border-left: 4px solid rgb(121, 4, 4);
+}
